@@ -28,10 +28,8 @@
   }
 
   .image {
-    max-height: 500px;
-    max-width: 500px;
-    border-color: pink;
-    border-inline-color: plum;
+    max-height: 300px;
+    max-width: 30%;
     border-style: solid;
   }
 
@@ -50,18 +48,16 @@
     animation: effect 2s linear infinite;
   }
   @keyframes effect {
-            0% {
-                background: linear-gradient(
-                        #008000, #00FF00);
-                -webkit-background-clip: text;
-            }
- 
-            100% {
-                background: linear-gradient(
-                        #3CE7D7, #000FFF);
-                -webkit-background-clip: text;
-            }
-        }
+    0% {
+      background: linear-gradient(#008000, #00FF00);
+      -webkit-background-clip: text;
+    }
+
+    100% {
+      background: linear-gradient(#3CE7D7, #000FFF);
+      -webkit-background-clip: text;
+    }
+  }
 
   #subtitle {
     font-size: 40px;
@@ -69,9 +65,17 @@
     color: white;
     margin-top: 20px;
     display: none;
+    font-family: cursive;
+  }
+  #pickText {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    font-family: cursive;
   }
 </style>
-<title>Selección para Adela</title>
+<title>Escoge tu regalo...</title>
 </head>
 <body>
   <div style="display: none;">
@@ -81,81 +85,70 @@
   </div>
   <div class="columnContainer">
     <div class="hide_image">
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-    </div>
-    <div id="congratulations">¡Enhorabuena!<br>Has seleccionado el mejor ítem</div>
-    <div id="subtitle"></div>
-    
-    <div class="imageContainer">
-      <img class="image" id="image1" src="image1.png" alt="Amazing Coche Triciclo Bebé">
-      <img class="image" id="image2" src="image2.png" alt="The Great Mesa de Actividades para bebé">
-      <img class="image" id="image3" src="image3.png" alt="El Poderoso Correpasillos Auto Deportivo">
-    </div>
-    <div class="imageContainer">
-      <img class="image" id="image1" src="image4.png" alt="La Mística Tienda Túnel">
-      <img class="image" id="image2" src="image5.png" alt="El Mejor Set de Juguetes Sensoriales">
+      <img src="https://giffiles.alphacoders.com/146/14623.gif"></img>
+      <img src="https://giffiles.alphacoders.com/146/14623.gif"></img>
+      <img src="https://giffiles.alphacoders.com/146/14623.gif"></img>
     </div>
     <div class="hide_image">
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
-      <img src="https://www.cameronsworld.net/img/content/31/16.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+    </div>
+    <div id="congratulations">¡Enhorabuena!<br>¡¡¡Feliz Cumpleaños Dany!!!</div>
+    <div id="subtitle"></div>
+    
+    <div id="pickText">🎁😮🎁 Escoge tu regalo 🎁😮🎁</div>
+    <div class="imageContainer">
+      <img class="image" id="image1" src="sword.png" alt="UUUH Te salió VALE OTRO en la mensualidad">
+      <img class="image" id="image2" src="rapier.jpg" alt="Justo el valor de este mes es x2">
+    </div>
+    <div class="imageContainer">
+      <img class="image" id="image1" src="sabre.png" alt="Aumento de Poder Adquisitivo +$40.000">
+      <img class="image" id="image2" src="messer.jpg" alt="MISIÓN CUMPLIDA RESPECT+ $40.000">
+    </div>
+    <div class="hide_image">
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+      <img src="https://gifdb.com/images/high/colorful-party-parrot-pirate-and-its-sword-j7zyh0nv7a6q4k75.gif"></img>
+    </div>
+    <div class="hide_image">
+      <img src="https://giffiles.alphacoders.com/146/14623.gif"></img>
+      <img src="https://giffiles.alphacoders.com/146/14623.gif"></img>
+      <img src="https://giffiles.alphacoders.com/146/14623.gif"></img>
+      <img src="https://giffiles.alphacoders.com/146/14623.gif"></img>
     </div>
   </div>
 <script>
   const images = document.querySelectorAll('.image');
   const postClickImages = document.querySelectorAll('.hide_image');
   const congratulationsText = document.getElementById('congratulations');
+  const pickText = document.getElementById('pickText');
   const subtitleText = document.getElementById('subtitle');
 
   images.forEach(image => {
     image.addEventListener('click', () => {
       images.forEach(img => img.style.display = 'none');
+      pickText.style.display = 'none';
       postClickImages.forEach(img => img.style.display = 'block');
       image.style.display = 'block';
       congratulationsText.style.display = 'block';
       subtitleText.style.display = 'block';
       subtitleText.innerHTML = image.alt;
-      document.body.style.background = "#f3f3f3 url('balloons.jpg') repeat center";
+      document.body.style.background = "#f3f3f3 url('tavern.png') repeat center";
     });
   });
 
